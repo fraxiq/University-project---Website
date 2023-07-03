@@ -1,0 +1,60 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>dropdown Menu</title>
+</head>
+<body>
+    <div class="menu-bar">
+        <h1 class="logo">Alex<span>Tech.</span></h1>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">Products <i class="fas fa-caret-down"></i></a>
+
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="Motherboards.html">Motherboards</a></li>
+                        <li><a href="GPUs.html">GPU</a></li>
+                        <li><a href="CPU.html">CPU</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="product">
+        <img class=" product-image" src="Snimki/BigCPU1.jpg" alt="Item Image">
+        <div class="product-details">
+            <h2>AMD Ryzen 7 3800 XT</h2>
+            <p>$250.00</p>
+            <button>Add to Cart</button>
+            <ul>
+                <li>Cores: 8</li>
+                <li>Threads: 16</li>
+                <li>Base clock speed: 3.9 GHz</li>
+                <li>Max boost clock speed: 4.7 GHz</li>
+                <li>Total L1 Cache: 512 KB</li>
+                <li>Total L2 Cache: 4 MB</li>
+                <li>Total L3 Cache: 32 MB</li>
+                <li>Socket: AM4</li>
+                <li>TDP: 105W</li>
+                <li>Manufacturing process: 7nm</li>
+                <li>PCIe 4.0 lanes: 24</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>Email: <a href="mailto:kursov.proekt@gmail.com" style="color: var(--color-white);">kursov.proekt@gmail.com</a></li>
+                <li>Phone: <a href="tel:0882345213" style="color: var(--color-white);">0882345213</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
